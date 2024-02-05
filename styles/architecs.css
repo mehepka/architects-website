@@ -100,9 +100,17 @@ padding-right: 70px;
     header{
         padding: 20px;
     }
-    nav{
+    nav,.team-container{
         flex-direction: column;
     }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    
 }
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -110,8 +118,10 @@ padding-right: 70px;
     header{
         padding: 20px;
     }
-        nav{
-        padding: 50px;
+        nav,.team-container{
+            flex-direction: column;
     }
-
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
 }
