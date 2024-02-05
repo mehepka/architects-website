@@ -63,22 +63,23 @@ nav li{
 }
 /* main styles */
 main{
-    max-width: 1440px;
-    margin: 0, auto;
+    max-width: 1440px; 
+    margin: 30px auto;
 }
 /* team style */
 .team-container{
 display: flex;
 align-items: center;
-gap: 1.5rem;
+/* gap: 1.5rem; */
 }
 .teams-img-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
 }
-.team content{
- padding-right: 70px;
- padding-right: 70px;
+.team-content{
+padding-left: 70px;
+padding-right: 70px;
 }
 .team-title{
     font-size: 2.8rem;
