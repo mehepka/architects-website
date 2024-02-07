@@ -1,224 +1,252 @@
 /* work font sans from google  */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
-    font-family: 'Work Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
 }
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.section-title{
-    font-size: 3rem;
-    font-weight: 700;
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
 }
 /* header styles */
-header{
-    background-color:rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav>ul{
-    display: flex;
+nav > ul {
+  display: flex;
 }
-nav li{
-    list-style: none;
-    margin-right:30px ;
-    font-weight: 500px;
-    font-size: 1rem;
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500px;
+  font-size: 1rem;
 }
- li>a{
+li > a {
   text-decoration: none;
 }
 /* banner section */
-.banner-content{
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
 }
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
 }
-.banner-description{
-    color: #131313;
+.banner-description {
+  color: #131313;
 }
-.btn-primary{
-    margin-top: 20px;
-    border-radius: 8px;
-    color: aliceblue;
-    font-size: 1.25rem;
-    background-color: #FF900E;
-    padding:20px 25px ;
-    border-style: none;
-    
+.btn-primary {
+  margin-top: 20px;
+  border-radius: 8px;
+  color: aliceblue;
+  font-size: 1.25rem;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border-style: none;
 }
-.banner img{
-    margin-top: 20px;
-    width: 100%;
-   
+.banner img {
+  margin-top: 20px;
+  width: 100%;
 }
 /* main styles */
-main{
-    max-width: 1440px; 
-    margin: 30px auto;
+main {
+  max-width: 1440px;
+  margin: 30px auto;
 }
 /* team style */
-.team-container{
-display: flex;
-align-items: center;
-/* gap: 1.5rem; */
+.team-container {
+  display: flex;
+  align-items: center;
+  /* gap: 1.5rem; */
 }
-.teams-img-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
-.team-content{
-padding-left: 70px;
-padding-right: 70px;
+.team-content {
+  padding-left: 70px;
+  padding-right: 70px;
 }
-.team-title{
-    font-size: 2.8rem;
+.team-title {
+  font-size: 2.8rem;
 }
-.qiucklist{
-    color:rgb(164, 164, 158) ;
-    font-weight: 500;
+.qiucklist {
+  color: rgb(164, 164, 158);
+  font-weight: 500;
 }
-.featur{
-    color: #FF900E;
-    font-weight: 700;
+.featur {
+  color: #ff900e;
+  font-weight: 700;
 }
-.text{
-    color: rgb(191, 186, 186);
+.text {
+  color: rgb(191, 186, 186);
 }
 /* feature section styles */
-.features{
-    margin-top:  130px;;
-    display: flex;
-    gap: 100px;
+.features {
+  margin-top: 130px;
+  display: flex;
+  gap: 100px;
 }
-.features .section-title{
-    border-left: 5px solid #FF900F;
-    padding-left: 20px;
+.features .section-title {
+  border-left: 5px solid #ff900f;
+  padding-left: 20px;
 }
 .feature-content .card {
-    padding: 30px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
-    
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
 }
-.feature-img img{
-margin-left: 90px;
-height: 80%;
+.feature-img img {
+  margin-left: 90px;
+  height: 80%;
 }
-.ten-years-badge{
-    border-radius: 08px;
-    background: #FF900E;
-    color: #FFF;
-    width: 280px;
-    padding: 40px;
-    text-align: center;
-    position: relative;
-    bottom: 100px;
-    
+.ten-years-badge {
+  border-radius: 08px;
+  background: #ff900e;
+  color: #fff;
+  width: 280px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
 }
-.ten-years-badge h3{
-    margin:0px;
-    font-size: 50px;
+.ten-years-badge h3 {
+  margin: 0px;
+  font-size: 50px;
 }
-.ten-years-badge p{
-    font-size:1.5rem ;
+.ten-years-badge p {
+  font-size: 1.5rem;
 }
 /* fact section */
 
-/* .facts-card-container{ */
-    .facts-card-container .card{ border-radius: 8px;
-    border: 1px solid #FF900E;
-    text-align: center;
-    padding: 40px 30px;
+.facts {
+  margin-top: 0px;
 }
-.facts-card-container{
-    display: flex;
-    justify-content: space-around;
-    
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 40px 30px;
 }
-.card-stats{
-    font-size:2.8rem ;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
 }
-.facts-card-container .card-title{
-    color: lightgray;
-    font-weight: 600px; 
-    font-size: 1.25rem; ;
-    margin-top: 5px;
+.card-stats {
+  font-size: 2.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.facts-card-container .card-title {
+  color: lightgray;
+  font-weight: 600px;
+  font-size: 1.25rem;
+  margin-top: 5px;
 }
 /* sponsors styles */
 
-.sponsors{
-    text-align: center;
+.sponsors {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
 }
-.sponsors-img-container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-}
-.sponsors-img-container img{
-    width: 165px;
-}
+/* .sponsors-section-title{
 
+} */
+.sponsors-img-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.sponsors-img-container img {
+  width: 155px;
+}
+.footer-content {
+  text-align: center;
+  padding: 50px 370px;
+}
+.footer-card {
+  background-color: #fff4e7;
+  margin-bottom: 100px;
+}
 
 /* responsive media queries*/
 /* mobile device */
-@media screen and (max-width:576px){
-    header{
-        padding: 20px;
-    }
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+
+  nav,
+  .team-container,
+  .features,
+  .facts-card-container,
+  .sponsors-img-container {
+    flex-direction: column;
+  }
+  .feature-img img {
+    width: 90%;
+    margin: 0;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+  .team-content,
+  .facts-card-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .facts-card-container {
+    gap: 20px;
+  }
+  .ten-years-badge {
+    position: static;
+    max-width: 300px;
+  }
+  .footer-content{
+    padding: 0px ;
     
-    nav,.team-container,
-    .features,
-    .facts-card-container{
-        flex-direction: column;
-    }
-    .feature-img img {
-        width: 90%;
-        margin: 0;
-    }
-    .teams-img-container{
-        grid-template-columns: 1fr;
-    }
-    .team-content, .facts-card-container{
-        padding-left: 20px;
-        padding-right: 20px;
-        }
-        .facts-card-container{
-            gap:20px;
-        }
-        .ten-years-badge{
-            position: static;
-           max-width: 300px;
-        }
-    
+  }
+  .sponsors-img-container{
+    margin-left: 20px;
+  }
 }
 /* tablet or medium devices */
-@media screen and (min-width:576px) and (max-width:960px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 20px;
+  }
+  nav,
+  .sponsors-img-container,
+  .features,
+  .team-container,
+  .sponsors-img-container {
+    flex-direction: column;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-content{
+    padding: 0px ;
     
-    header{
-        padding: 20px;
-    }
-        nav,
-        .features,.team-container,.sponsors-img-container{
-            flex-direction: column;
-    }
-    .teams-img-container{
-        grid-template-columns: 1fr;
-    }
+  }
+  .sponsors-img-container{
+    margin-left: 20px;
+  }
 }
